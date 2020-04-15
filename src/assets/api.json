@@ -1,0 +1,14 @@
+{
+  "loadList": {
+    "url": {
+      "path": "/getList",
+      "method": "get"
+    }
+  },
+  "getDetail": {
+    "url": {
+      "path": "/getDetail",
+      "method": "get"
+    }
+  }
+}

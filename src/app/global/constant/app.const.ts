@@ -1,0 +1,26 @@
+import { APIRequestHeader } from '../interface/app.types';
+
+export const ANISION_DEFAULT_HEADER: APIRequestHeader = {
+  LocalLang: '1111',
+  TranTeller: '1111',
+  ExtendContent: '1111',
+  TranDate: '1111',
+  TranCode: '1111',
+  AuthFlag: '1',
+  Channel: '01',
+  KeyId: '1111',
+  TranSeq: '1111',
+  BranchId: '1111',
+  GlobalSeq: '1111',
+  Mac: '',
+  ClientIp: '0.0.0.0',
+  ServiceCode: '1111',
+  TerminalCode: '1111',
+  ServiceName: '1111',
+  AuthrPwd: '1111',
+  AuthrTeller: '1111',
+  ConsumerId: 'sec',
+  SourceSysId: '111',
+  TranTime: '1111',
+  LegalRepCode: '9999',
+};

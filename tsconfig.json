@@ -17,7 +17,18 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/*": [
+        "src/app/*"
+      ],
+      "anique": [
+        "dist/anique"
+      ],
+      "anique/*": [
+        "dist/anique/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
